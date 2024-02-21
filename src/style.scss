@@ -1,0 +1,19 @@
+@import "card";
+
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+body {
+  font-size: 15px;
+  font-family: "Outfit", sans-serif;
+  background: hsl(212, 45%, 89%);
+}
+
+.app {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.text-muted {
+  color: rgb(145, 145, 145);
+}
