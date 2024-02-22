@@ -1,21 +1,21 @@
 .card {
   background: hsl(0, 0%, 100%);
-  width: 300px;
-  height: 500px;
-  border-radius: 20px;
-  box-shadow: 0 4px 8px 0 hsl(220, 15%, 55%);
+  width: 250px;
+  height: 300px auto;
+  border-radius: 15px;
+  box-shadow: 0 2px 5px 0 hsl(220, 15%, 55%);
+  padding: 0.75rem;
 
   .card-img {
-    padding: 1rem;
     img {
-      border-radius: 20px;
+      border-radius: 15px;
       width: 100%;
       height: auto;
     }
   }
 
   .card-body {
-    padding: 2rem;
+    padding: 1rem;
     text-align: center;
     align-items: center;
     justify-content: center;

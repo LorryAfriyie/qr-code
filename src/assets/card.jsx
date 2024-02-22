@@ -10,8 +10,10 @@ export const Card = () => {
         </h3>
 
         <p className="text-muted">
-          Scan the QR code to visit Frontend Mentor and take your coding skills
-          to the next level
+          <small>
+            Scan the QR code to visit Frontend Mentor and take your coding
+            skills to the next level
+          </small>
         </p>
       </div>
     </div>
