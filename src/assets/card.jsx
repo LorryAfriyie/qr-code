@@ -1,8 +1,10 @@
+import img from "/images/image-qr-code.png";
+
 export const Card = () => {
   return (
     <div className="card">
       <div className="card-img">
-        <img src="/images/image-qr-code.png" alt="" />
+        <img src={img} alt={img} />
       </div>
       <div className="card-body">
         <h3>
